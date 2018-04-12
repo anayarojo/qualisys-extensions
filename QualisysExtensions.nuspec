@@ -2,9 +2,9 @@
 <package >
   <metadata>
     <id>QualisysExtensions</id>
-    <version>1.0.0</version>
-    <authors>ranaya</authors>
-    <owners>ranaya</owners>
+    <version>1.0.1</version>
+    <authors>anayarojo</authors>
+    <owners>anayarojo</owners>
     <licenseUrl>https://github.com/anayarojo/qualisys-extensions/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/anayarojo/qualisys-extensions</projectUrl>
     <iconUrl>https://github.com/anayarojo/qualisys-extensions/blob/master/QualisysExtensions/icon.png?raw=true</iconUrl>
@@ -12,9 +12,14 @@
     <description>Extensiones para combo box, base de datos, fecha, enum, object y string.</description>
     <releaseNotes>Extensiones para combo box, base de datos, fecha, enum, object y string.</releaseNotes>
     <copyright>Copyright 2018</copyright>
-    <tags>anayarojo qualisys extensions</tags>
+    <tags>anayarojo qualisys extensions qualisys-extensions</tags>
     <dependencies>
       <dependency id="Newtonsoft.Json" version="9.0.1" />
     </dependencies>
   </metadata>
+    <files>
+	<!--DLL AND DOC-->
+	<file src="QualisysExtensions\bin\Release\QualisysExtensions.dll" target="lib\net45\QualisysExtensions.dll" />
+	<file src="QualisysExtensions\bin\Release\QualisysExtensions.xml" target="lib\net45\QualisysExtensions.xml" />
+  </files>
 </package>

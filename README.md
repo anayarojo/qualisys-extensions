@@ -3,7 +3,7 @@
 #### Nuget installation:
 
 ```
-Install-Package QualisysLog -Version 1.0.1
+Install-Package QualisysExtensions -Version 1.0.1
 ```
 
 #### Basic use:
